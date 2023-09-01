@@ -1,3 +1,7 @@
+@font-face {
+  font-family: Roboto;
+  src: url(/fonts/Roboto-Regular.ttf);
+}
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +10,7 @@
 body {
   color: #9f9fa1;
   background-color: rgb(12, 0, 0);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 header {
   background-color: aquamarine;
@@ -14,25 +18,31 @@ header {
 p {
   color: rgb(255, 255, 255);
 }
+h1,
 h2 {
   color: bisque;
+  font-family: Arial, sans-serif;
+  font-weight: 800;
+  font-style: italic;
 }
-.titre {
-    color: coral;
+/* .titre {
+  color: coral;
 }
 
-.titre2{
-    border-bottom: 1px solid red;
+.titre2 {
+  border-bottom: 1px solid red;
+} */
+#paragraphe {
+  border: solid 1px white;
 }
-#paragraphe{
-    border: solid 1px white;
-}
-a{
-    color: deeppink;
-    text-decoration: none;
+a {
+  color: deeppink;
+  text-decoration: none;
 }
 p:hover {
-    color: aquamarine;
-    background-color: yellowgreen;
+  color: aquamarine;
+  background-color: yellowgreen;
 }
-
+img {
+  width: 24%;
+}
